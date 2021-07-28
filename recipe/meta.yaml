@@ -1,5 +1,5 @@
 {% set name = "google-cloud-memcache" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-memcache-{{ version }}.tar.gz
-  sha256: 4ae11a1d5d35cfdb7c0c1d3bfba49f1bff12539d8a2936f49b76c19367e55548
+  sha256: 25c6a7d89c201d081e57a0965f240d7ec2bd291ee8861862cd347b542a5cca14
   patches:
     - 0001-remove-unwanted-packages.patch
 
@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - google-api-core-grpc >=1.26.0,<2.0.0dev
+    - google-api-core-grpc >=1.26.0,<3.0.0dev
     - proto-plus >=1.4.0
     - packaging >=14.3
 
