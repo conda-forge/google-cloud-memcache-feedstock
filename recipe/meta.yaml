@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-memcache-{{ version }}.tar.gz
   sha256: 9d8b8caf647682737e87995f006ab3d9b09c000bee75ef0ac3c461504367fdfe
-  patches:
-    - 0001-remove-unwanted-packages.patch
 
 build:
   number: 0
