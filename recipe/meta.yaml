@@ -34,13 +34,9 @@ test:
 
 about:
   home: https://github.com/googleapis/python-memcache
-<<<<<<< HEAD
-=======
   summary: Google Cloud Memcache API client library
->>>>>>> 4c491b5 (Update recipe with changes from grayskull)
   license: Apache-2.0
   license_file: LICENSE
-  summary: Cloud Memorystore for Memached API
   description: |
     Cloud Memorystore for Memached API: Ship performant and highly available
     key value store, compatible with OSS Memcached protocol.
