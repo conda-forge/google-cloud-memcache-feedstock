@@ -7,7 +7,7 @@ Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-memcache-feedstock/blob/main/LICENSE.txt)
 
-Summary: Cloud Memorystore for Memached API
+Summary: Google Cloud Memcache API client library
 
 Development: https://github.com/googleapis/python-memcache
 
