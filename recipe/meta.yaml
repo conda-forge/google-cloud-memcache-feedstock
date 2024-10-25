@@ -1,5 +1,5 @@
 {% set name = "google-cloud-memcache" %}
-{% set version = "1.9.5" %}
+{% set version = "1.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 01ceaef2e3ff2160e3d6dd12dba13f9590f16953cbe2e038a9e6b4949c28e516
+  sha256: 43e652d9cd7cba14b49e5a540a6e2a3a65c5b1c3419f08eaa71ed04e79622dfc
 
 build:
   number: 0
