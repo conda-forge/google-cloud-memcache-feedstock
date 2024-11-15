@@ -9,7 +9,7 @@ Package license: Apache-2.0
 
 Summary: Google Cloud Memcache API client library
 
-Development: https://github.com/googleapis/python-memcache
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-memcache
 
 Documentation: https://googleapis.dev/python/memcache/latest/index.html
 
