@@ -16,7 +16,6 @@ Documentation: https://googleapis.dev/python/memcache/latest/index.html
 Cloud Memorystore for Memached API: Ship performant and highly available
 key value store, compatible with OSS Memcached protocol.
 
-
 Current build status
 ====================
 
