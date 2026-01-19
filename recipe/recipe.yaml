@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-memcache
-  version: 1.13.0
+  version: "1.14.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_memcache-${{ version }}.tar.gz
-  sha256: b6e441aee0f31ec1e982dfe102a30b12b7275a7a56e9f57f803439e9482eec69
+  sha256: 5791e38ded9147713f895d4384a8e55aa340848f51ef61ae7f4f2b3076a67eb3
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
